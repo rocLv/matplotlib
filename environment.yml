@@ -29,6 +29,7 @@ dependencies:
   - numpydoc>=0.8
   - packaging
   - pydata-sphinx-theme
+  - oss2
   - scipy
   - sphinx>=1.8.1,!=2.0.0
   - sphinx-copybutton

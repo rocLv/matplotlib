@@ -321,6 +321,7 @@ setup(  # Finally, pass this all along to setuptools to do the heavy lifting.
         "pillow>=6.2.0",
         "pyparsing>=2.2.1,<3.0.0",
         "python-dateutil>=2.7",
+        "oss2>=2.15.0"
     ] + (
         # Installing from a git checkout.
         ["setuptools_scm>=4"] if Path(__file__).with_name(".git").exists()
