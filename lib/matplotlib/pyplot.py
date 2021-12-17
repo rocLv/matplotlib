@@ -962,7 +962,7 @@ def savefig(*args, **kwargs):
     filename = datetime.now().strftime("%Y%m%d%H%M%S%f_") + args[0]
     u(filename, args[0])
     import os
-    print("请点击以下防止浏览" + os.environ.get("NXOSS_URL") + "temp/" + filename)
+    print("请点击以下链接浏览:" + os.environ.get("NXOSS_URL") + "temp/" + filename)
     return res
 
 
